@@ -256,7 +256,37 @@ const Index = () => {
         </div>
       </header>
 
-      <div className="max-w-7xl mx-auto px-6 py-8">
+      {/* Готовый баннер "Приму рекламу" */}
+      <div className="max-w-7xl mx-auto px-6 pt-8">
+        <div style={{ backgroundColor: "#0D1117", border: "1px solid #1E2329", borderRadius: 8 }} className="p-6 mb-6">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <div className="text-sm font-semibold text-white font-montserrat">Готовый баннер «Приму рекламу»</div>
+              <div className="text-xs mt-0.5" style={{ color: "#556070" }}>Скачайте и разместите на вашем канале</div>
+            </div>
+            <a
+              href="https://cdn.poehali.dev/projects/16c363a4-01d9-49dc-8cff-68d3d14131dd/files/8b84587e-b570-48c4-bdf5-11f980803708.jpg"
+              download="banner-primu-reklamu.jpg"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 px-4 py-2.5 rounded-md text-sm font-semibold transition-all hover:opacity-90"
+              style={{ backgroundColor: "#C9A84C", color: "#0D1117" }}
+            >
+              ↓ Скачать JPG
+            </a>
+          </div>
+          <div style={{ borderRadius: 6, overflow: "hidden", border: "1px solid #1E2329" }}>
+            <img
+              src="https://cdn.poehali.dev/projects/16c363a4-01d9-49dc-8cff-68d3d14131dd/files/8b84587e-b570-48c4-bdf5-11f980803708.jpg"
+              alt="Баннер Приму рекламу"
+              className="w-full block"
+              style={{ maxHeight: 320, objectFit: "cover", objectPosition: "center" }}
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="grid grid-cols-12 gap-8">
 
           {/* Левая панель — настройки */}
